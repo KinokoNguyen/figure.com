@@ -1,0 +1,201 @@
+.mod-4 {
+  padding-top: 25%;
+}
+.mod-4 a {
+  text-decoration: none;
+  color: #505050;
+}
+.mod-4 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mod-4 li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.mod-4 body {
+  background: white;
+}
+.mod-4 .store-badge {
+  vertical-align: middle;
+}
+.mod-4 .store-badge img {
+  width: 156px;
+}
+.mod-4 .store-badge.bottom {
+  display: none;
+}
+.mod-4 .app {
+  text-align: center;
+}
+@media only screen and (min-width: 780px) {
+  .mod-4 .store-badge {
+    display: inline-block;
+    margin-right: 18px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 779px) {
+  .mod-4 .store-badge {
+    display: inline-block;
+    margin-right: 18px;
+  }
+  .mod-4 .store-badge img {
+    width: 190px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .mod-4 .store-badge {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .mod-4 .store-badge img {
+    display: inline-block;
+  }
+  .mod-4 .store-badge.top {
+    display: none;
+  }
+  .mod-4 .store-badge.bottom {
+    display: block;
+  }
+  .mod-4 .store-badge img {
+    width: 190px;
+  }
+}
+.mod-4 footer {
+  text-align: center;
+  margin: 18px 0 30px;
+}
+@media only screen and (max-width: 779px) {
+  .mod-4 footer {
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+}
+.mod-4 .footer-links {
+  font-size: 1.3rem;
+  color: #505050;
+  display: inline-block;
+  width: 100%;
+}
+.mod-4 .footer-links a {
+  display: inline-block;
+  transition: color 0.2s ease-out;
+}
+.mod-4 .footer-links a:hover {
+  color: #DA151F;
+}
+@media only screen and (max-width: 779px) {
+  .mod-4 .footer-links {
+    padding: 30px 30px;
+    background: #ECECEC;
+    text-align: left;
+  }
+  .mod-4 .footer-links a {
+    padding: 10px 0;
+    font-size: 1.4rem;
+  }
+  .mod-4 .footer-links li {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .mod-4 .footer-links li {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .mod-4 .footer-links a {
+    padding: 10px 10px;
+  }
+  .mod-4 .footer-links li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.mod-4 h1 {
+  font-weight: 400;
+  color: #505050;
+  font-size: 3.8rem;
+}
+.mod-4 h1,
+.mod-4 h2,
+.mod-4 h3,
+.mod-4 h4,
+.mod-4 h5,
+.mod-4 h6 {
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  margin: 20px 0;
+}
+.mod-4 .app-info {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.mod-4 .main-content {
+  text-align: center;
+  margin-top: -15px;
+}
+.mod-4 .text-info li {
+  color: #52545F;
+  font-size: 1.5rem;
+  display: block;
+  margin-top: 14px;
+  position: relative;
+  padding-left: 18px;
+}
+.mod-4 li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.mod-4 a {
+  text-decoration: none;
+  color: #505050;
+}
+.mod-4 a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: auto;
+}
+.mod-4 .login-link {
+  background: #DFDFDF;
+  color: #52545F;
+}
+.mod-4 .register-link {
+  background: #D0021B;
+  color: white;
+  margin-right: 14px;
+}
+.mod-4 .text-info li:before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: #DA151F;
+  border-radius: 99px;
+  margin-right: 10px;
+  vertical-align: 2px;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+.mod-4 .web-app-links a {
+  text-decoration: none;
+  display: inline-block;
+  width: 170px;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 99px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.mod-4 a.login-link {
+  color: #000;
+}
+.mod-4 .app-info .web-app-links {
+  margin-top: 44px;
+}
