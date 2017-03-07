@@ -1,0 +1,26 @@
+.type-411 .cover-bg {
+  background: url(../assets/img/signup-bg.jpg) 50% 50%;
+}
+.type-411 .checkbox {
+  padding-left: 0;
+  margin-top: 0;
+}
+.type-411 .top-links {
+  position: absolute;
+  top: 35px;
+  right: 42px;
+}
+@media (max-width: 768px) {
+  .type-411 .logo {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .type-411 .top-links {
+    position: absolute;
+    top: 35px;
+    right: 5px;
+    text-align: center;
+  }
+}
