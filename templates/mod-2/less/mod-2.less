@@ -2,12 +2,16 @@
     @color_bg: #000;    
     border: none;
     height: auto;
-   .clear{
-        clear: both;
+    img {
+        display: block;
     }
-    .top-menu{
-        padding: 0;
-        
+    .logo{
+        width: auto;
+        position: absolute;
+        float: left;
+    }
+    .clear{
+        clear: both;
     }
     .navbar-collapse{
         padding: 0;
@@ -26,6 +30,7 @@
     }
     .btn-menu:hover{
         background: #000;
+        color: #fff;
     }
     /*-------REPONSIVE----------*/
     @media (min-width: 1200px){
@@ -40,9 +45,8 @@
     }
     @media (min-width: 768px){
         .top-menu{
-            width: 960px;
+            padding: 0;       
         }
-        
         li>a {
             color: @color_bg;
             font-family: 'Open Sans Condensed', sans-serif;          
@@ -70,9 +74,6 @@
         .navbar-collapse{
           
         }
-    }
-    @media (min-width: 480px){
-        
     }
 }
 

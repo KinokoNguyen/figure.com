@@ -16,7 +16,7 @@
    </head>
    <body>
       <div class="mod-4">
-      <div class="main-content">
+      <div class="container content">
          <div class="app-info">
             <h1>Hoạt động bên lĩnh vực</h1>
             <ul class="text-info medium-minus-hide">

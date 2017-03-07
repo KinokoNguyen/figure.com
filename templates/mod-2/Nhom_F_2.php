@@ -11,32 +11,35 @@
       $less = new lessc;
       $less->compileFile('less/mod-2.less', 'css/mod-2.css');
       ?>
-   <link href="css/mod-2.css" rel="stylesheet" type="text/css"/>
-   <link href="css/style.css" rel="stylesheet" type="text/css"/>
+   <link href="css/mod-2.css" rel="stylesheet" type="text/css"/>  
    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>  
    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
-   <header>
-       <div class="container">
-      <div class="mod-2">
-         <!--MAIN MENU-->
+    <div class="mod-2">
+      <div class="container top-menu">
+          <!--LOGO-->
+          <div class="logo">
+              <a href="#">
+                  <img src="images/logo.png" alt="" style="width: 100px; height: 50px;"/>
+              </a>
+          </div>
+          <!--END LOGO-->
+          <!--MAIN MENU-->
          <div class="">
-            <span class="fa fa-navicon btn-menu" data-toggle="collapse" data-target=".collapse-top-menu"></span>
-            <div class="clear"></div>
-         </div>
-         <div class="navbar-collapse ">
-            <ul class="nav navbar-nav navbar-right collapse collapse-top-menu">
-               <li class="item active"><a href="#">Medical case</a></li>
-               <li class="item"><a href="#">View</a></li>
-               <li class="item"><a href="#">Mobile</a></li>
-               <li class="item"><a href="#">Asus</a></li>
-               <li class="item"><a href="#">Quiz</a></li>
-            </ul>
-         </div>
-         <!--END MAIN MENU-->   
-         </nav>
-      </div>
-       </div>     
-    </header>
+              <span class="fa fa-navicon btn-menu" data-toggle="collapse" data-target=".collapse-top-menu"></span>
+              <div class="clear"></div>
+          </div>
+          <div class="navbar-collapse ">
+              <ul class="nav navbar-nav navbar-right collapse collapse-top-menu">
+                    <li class="item active"><a href="#">Medical case</a></li>
+                    <li class="item"><a href="#">View</a></li>
+                    <li class="item"><a href="#">Mobile</a></li>
+                    <li class="item"><a href="#">Asus</a></li>
+                    <li class="item"><a href="#">Quiz</a></li>
+              </ul>
+          </div>
+          <!--END MAIN MENU-->              
+          </div>  
+    </div>   
 </body>

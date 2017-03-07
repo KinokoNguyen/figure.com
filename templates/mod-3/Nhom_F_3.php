@@ -20,13 +20,14 @@
 <body>
 
     <div class="type-301">
-        <div class="tit1">Liên hệ</div>
-    <ul>
-	<li class="address">11 Fifth Ave, Loftus - NEW JERSEY, US</li>
-	<li class="telephone"><span>Telephone:</span> + 61 (2) 8093 3400</li>
-	<li class="fax"><span>Fax:</span> +61 (2) 9542 3599</li>
-	<li class="email"><span>Email:</span> <i>submissions@domain.com</i></li>
-    </ul>
-
+        <div class="container contact">
+            <div class="tit1">Liên hệ</div>
+            <ul>
+                <li class="address">11 Fifth Ave, Loftus - NEW JERSEY, US</li>
+                <li class="telephone"><span>Telephone:</span> + 61 (2) 8093 3400</li>
+                <li class="fax"><span>Fax:</span> +61 (2) 9542 3599</li>
+                <li class="email"><span>Email:</span> <i>submissions@domain.com</i></li>
+            </ul>
+        </div>
     </div>
 </body>

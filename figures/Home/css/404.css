@@ -1,0 +1,10 @@
+.type-404 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (min-width: 768px) {
+  .type-404 .show-img {
+    width: 960px;
+  }
+}

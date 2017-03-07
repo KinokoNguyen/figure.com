@@ -14,13 +14,16 @@
          ?>
       <link href="css/mod-5.css" rel="stylesheet" type="text/css"/>
    </head>
-   <body >
+   <body>
       <div class="mod-5">
-         <main>
-            <div class="app-display">
-               <img src="images/phones-en.png">
-            </div>
-         </main>
+          <div class="container show-img">
+              <div class="col-md-6">
+                  
+              </div>
+              <div class="col-md-6">
+                  <img src="images/phones-en.png">
+              </div>
+        </div>
       </div>
    </body>
 </html>
