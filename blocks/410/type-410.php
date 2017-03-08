@@ -13,68 +13,66 @@
     $less->compileFile('less/type-410.less', 'css/type-410.css');
     ?>
     <link href="css/type-410.css" rel="stylesheet" type="text/css"/>
-    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>  
-    <link href="css/ember-app-46169a8a9b3335b0592cb58c3df86fe3.css" rel="stylesheet" type="text/css"/>
 
 </head>
 
-<body style="min-width: auto;">
+<body>
     <div class="type-410">
-        <div class="ember-view">
-            <div class="landing-page">
+        <div class="container">
+            <div class="row">
+                <!--BACKGROUND-->
                 <div class="cover-bg"></div>
-                <div class="logo">
-                    <img src="assets/img/logo-alt.svg" alt="logo">
+                <!--/END BACKGROUND-->
+
+                <!--TOP LINKS-->
+                <div class="top-links">
+                    <span>Don't have an account yet?</span>
+                    <a href="#" class="ember-view">Sign Up</a>
                 </div>
+                <!--/END TOP LINKS-->
 
-                <!--CONTENT LOGIN-->
-                <div class="ember-view">
-                    <div class="liquid-child">
+                <!--LOGIN-->
+                <div class="landing-page">
+                    <!--LOGO-->
+                    <div class="logo">
+                        <img src="images/logo-alt.svg" alt="logo">
+                    </div>
+                    <!--/END LOGO-->
 
-                        <div class="top-links">
-                            <span>Don't have an account yet?</span>
-                            <a href="#">Sign Up</a>
-                        </div>
+                    <!--FORM LOGIN-->
+                    <div class="login-page account-container">
+                        <h1>Discuss and share medical cases with a global community of healthcare professionals</h1>
 
-                        <!--LOGIN-->
-                        <div class="login-page account-container">
-                            <h1>Discuss and share medical cases with a global community of healthcare professionals</h1>
+                        <main>
+                            <form>
+                                <input type="text" name="email" placeholder="Email Address" class="simple-input">
+                                <hr>
+                                <input type="password" name="password" placeholder="Password" class="simple-input">
+                            </form>
+                        </main>
 
-                            <!--FORM LOGIN-->
-                            <main>
-                                <form id="login-form">
-                                    <input type="text" name="email" placeholder="Email Address" class="simple-input">
-                                    <hr>
-                                    <input type="password" name="password" placeholder="Password" class="simple-input">
-                                </form>
-                            </main>
-                            <!--/END FORM LOGIN-->
+                        <button type="submit" form="login-form" class="submit-button black">
+                            Sign In
+                        </button>
 
-                            <!--BUTTON SUBMIT-->
-                            <button type="submit" form="login-form" class="submit-button black">
-                                Sign In
-                            </button>
-                            <!--/END BUTTON SUBMIT-->
+                        <div class="extra-login-options">
+                            <div class="checkbox white">
+                                <input type="checkbox" id="remember-me">
+                                <label for="remember-me" class="box"></label>
+                            </div> 
 
-                            <!--CHECK REMEMBER-->
-                            <div class="extra-login-options">
-                                <div id="ember424" class="checkbox white">
-                                    <input type="checkbox" id="remember-me">
-                                    <label for="remember-me" class="box"></label>
-                                </div> 
-                                <label for="remember-me" class="noselect">Remember my password</label>
-                                <div class="pull-right">
-                                    <a href="#">Forgot your password?</a>
-                                </div>
+                            <label for="remember-me" class="noselect">Remember my password</label>
+
+                            <div class="pull-right">
+                                <a href="#" >Forgot your password?</a>
                             </div>
-                            <!--/END CHECK REMEMBER-->
-
                         </div>
-                        <!--/END LOGIN-->
 
                     </div>
+                    <!--/END FORM LOGIN-->
+
                 </div>
-                <!--/END CONTENT LOGIN-->
+                <!--/END LOGIN-->
             </div>
         </div>
     </div>

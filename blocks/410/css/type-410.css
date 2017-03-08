@@ -1,15 +1,156 @@
-.type-410 .cover-bg {
-  background: url(../assets/img/signup-bg.jpg) 50% 50% no-repeat;
-  background-size: cover;
+.type-410 .cover-bg,
+.type-410 .cover-bg:after {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
 }
-.type-410 .checkbox {
-  padding-left: 0;
-  margin-top: 0;
+.type-410 .cover-bg {
+  background: url(../images/signup-bg.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  z-index: -10;
+  position: fixed;
+}
+.type-410 .cover-bg:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: rgba(81,83,94,0.65);
 }
 .type-410 .top-links {
+  float: right;
+  padding-top: 20px;
+}
+.type-410 .top-links a {
+  display: inline-block;
+  padding: 9px 44px;
+  margin-left: 22px;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+.type-410 .top-links span {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.type-410 .logo {
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+}
+.type-410 .logo img {
+  width: 150px;
+  display: inline-block;
+}
+.type-410 .account-container {
+  width: 440px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.type-410 .account-container h1 {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+.type-410 .account-container main {
+  background: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.type-410 .account-container .simple-input {
+  border: 0;
+  font-size: 1.3rem;
+  display: block;
+  width: 100%;
+  padding: 20px 0 0 20px;
+}
+.type-410 .account-container .submit-button {
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 2px;
+  padding: 16px 0;
+  margin-top: 14px;
+  transition: .15s ease-out;
+  border: none;
+}
+.type-410 .account-container .submit-button.black {
+  background: #292F34;
+}
+.type-410 .account-container .submit-button.black:hover {
+  background: #22272b;
+}
+.type-410 hr {
+  height: 1px;
+  color: #DFDFDF;
+  margin-bottom: 0;
+}
+.type-410 .extra-login-options {
+  margin-top: 26px;
+}
+.type-410 .extra-login-options a {
+  color: #fff;
+  transition: .15s ease-out;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.type-410 .extra-login-options a:hover,
+.type-410 .extra-login-options label:hover {
+  color: #e6e6e6;
+}
+.type-410 .extra-login-options .checkbox {
+  vertical-align: -1px;
+  margin-right: 10px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: -20px;
+  margin-top: -5px;
+}
+.type-410 .extra-login-options .checkbox input {
+  display: none;
+  -webkit-appearance: none;
+}
+.type-410 .extra-login-options .checkbox label {
+  border: 1px solid;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 1px;
+  background: 0 0;
+  left: 1px;
+  top: 1px;
+}
+.type-410 .extra-login-options .checkbox.white label {
+  border-color: #fff;
+}
+.type-410 .extra-login-options .checkbox label.box:after {
+  transition: background-color .2s ease;
+  display: inline-block;
   position: absolute;
-  top: 35px;
-  right: 42px;
+  left: 1px;
+  top: 1px;
+  border-radius: 1px;
+  width: 10px;
+  height: 10px;
+}
+.type-410 .extra-login-options .checkbox.white input:checked+.box:after {
+  background: #fff;
+}
+.type-410 .extra-login-options label {
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: inline-block;
+}
+.type-410 .pull-right {
+  float: right;
 }
 @media (max-width: 768px) {
   .type-410 .logo {
@@ -20,7 +161,6 @@
 @media (max-width: 480px) {
   .type-410 .top-links {
     position: absolute;
-    top: 35px;
     right: 5px;
     text-align: center;
   }
