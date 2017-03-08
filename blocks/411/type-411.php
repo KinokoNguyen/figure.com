@@ -18,9 +18,10 @@
 
 </head>
 
-<body>
+<body style="min-width: auto">
     <div class="type-411">
-        <div class="ember-view">
+        <div class="container-fluid">
+            <div class="ember-view">
             <div class="landing-page">
 
                 <div class="cover-bg"></div>
@@ -39,7 +40,9 @@
                         <div class="liquid-container">
                             <div class="liquid-child">  
                                 <!--PAGE REGISTER-->
-                                <div class="register-page account-container">
+
+                      
+                                    <div class="register-page account-container">
                                     <h1>Sign up below with your email address</h1>
 
                                     <main>
@@ -109,6 +112,9 @@
                                         Create Account
                                     </button>
                                 </div>
+           
+
+                                
                                 <!--/END PAGE REGISTER-->
 
                             </div>
@@ -120,5 +126,7 @@
 
             </div>
         </div>
+        </div>
+        
     </div>
 </body>
