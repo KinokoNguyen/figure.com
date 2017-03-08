@@ -31,6 +31,9 @@
   background: #000;
   color: #fff;
 }
+.type-401 .top-menu {
+  padding-top: 20px !important;
+}
 @media (min-width: 1200px) {
   .type-401 li>a {
     font-size: 1.1em;

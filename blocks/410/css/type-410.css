@@ -1,5 +1,6 @@
 .type-410 .cover-bg {
-  background: url(../assets/img/signup-bg.jpg) 50% 50%;
+  background: url(../assets/img/signup-bg.jpg) 50% 50% no-repeat;
+  background-size: cover;
 }
 .type-410 .checkbox {
   padding-left: 0;
