@@ -1,0 +1,121 @@
+.type-menu .demo-long {
+  marin-top: 500px;
+  margin-bottom: 500px;
+}
+.type-menu .header-logo {
+  padding: 13px 14px;
+  position: absolute;
+  margin-left: -42px;
+  top: 0px;
+}
+.type-menu .header-logo img {
+  vertical-align: -13px;
+  display: inline-block;
+  width: 56px;
+}
+.type-menu button {
+  box-shadow: none;
+  background: 0 0;
+  border: none;
+}
+.type-menu .navbar-collapse {
+  background: #fff;
+}
+.type-menu li .fa {
+  font-size: 18px;
+}
+.type-menu li a {
+  font-language-override: 14px;
+}
+.type-menu li a img {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  transition: opacity .3s ease-out;
+  background: #B7B7B7;
+  border-radius: 50%;
+}
+.type-menu li .avatar {
+  display: inline-block;
+  margin-right: 12px;
+}
+.type-menu li .user {
+  display: inline-block;
+  vertical-align: middle;
+}
+.type-menu li .profile-user .user-info {
+  padding-left: 36px;
+  height: 110px;
+}
+.type-menu li .profile-user img {
+  width: 60px;
+  height: 60px;
+}
+.type-menu li .profile-user .profile {
+  padding: 15px 0;
+}
+.type-menu li .profile-user .profile a {
+  height: 110px;
+  padding-left: 36px;
+  color: #000;
+  text-decoration: none;
+}
+.type-menu li .profile-user .profile a:hover {
+  opacity: .5;
+}
+.type-menu li .profile-user .profile img {
+  margin-right: 8px;
+}
+.type-menu li .profile-user .profile .user {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.type-menu li .profile-user .profile .user .user-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.type-menu .links {
+  border-top: 1px solid #DDD;
+  background: #fafafa;
+  padding: 16px 20px 20px 36px;
+}
+.type-menu .links a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 0;
+  font-size: 1.4rem;
+  width: 100%;
+}
+.type-menu .dropdown-menu {
+  padding: 0;
+  margin-right: 7px;
+}
+@media (min-width: 692px) {
+  .type-menu .header-logo {
+    left: 50%;
+  }
+  .type-menu .user-img {
+    padding: 10px;
+  }
+  .type-menu .profile-user {
+    width: 264px;
+  }
+}
+@media (max-width: 691px) {
+  .type-menu .header-logo {
+    left: 10%;
+    height: 0;
+  }
+}
+@media (max-width: 769px) {
+  .type-menu .navbar-right>li {
+    float: left;
+  }
+  .type-menu .user-img {
+    padding: 5px;
+  }
+  .type-menu .open,
+  .type-menu .profile-user {
+    width: 100%;
+  }
+}

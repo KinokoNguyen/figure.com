@@ -1,0 +1,8 @@
+.type-411 {
+  background: url(../assets/img/signup-bg.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  z-index: -10;
+}
+.type-411 .clear {
+  clear: both;
+}
