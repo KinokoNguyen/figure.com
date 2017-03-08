@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body style="min-width: auto;">
     <div class="type-410">
         <div class="ember-view">
             <div class="landing-page">
