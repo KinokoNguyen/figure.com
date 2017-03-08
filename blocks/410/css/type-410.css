@@ -149,6 +149,9 @@
   cursor: pointer;
   display: inline-block;
 }
+.type-410 input:focus {
+  outline: none;
+}
 .type-410 .pull-right {
   float: right;
 }
