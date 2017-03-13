@@ -124,44 +124,8 @@
 .type-411 .register-tos-confirm {
   padding: 4px 0 24px;
 }
-.type-411 .register-tos-confirm .checkbox {
-  vertical-align: -1px;
-  display: inline-block;
-  cursor: pointer;
-  position: relative;
-}
-.type-411 .register-tos-confirm .checkbox input {
-  display: none;
-  -webkit-appearance: none;
-}
-.type-411 .register-tos-confirm .checkbox label {
-  margin-left: 0;
-  border: 1px solid;
-  width: 14px;
-  height: 14px;
-  display: inline-block;
-  border-radius: 1px;
-  background: 0 0;
-  left: 1px;
-  top: 1px;
-}
-.type-411 .register-tos-confirm .checkbox label.box:after {
-  content: "";
-  transition: background-color .2s ease;
-  display: inline-block;
-  position: absolute;
-  left: 1px;
-  top: 1px;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
-}
-.type-411 .register-tos-confirm .checkbox.grey label {
-  border-color: #7E7F8D;
-}
 .type-411 .register-tos-confirm label {
   font-size: 1.3rem;
-  margin-left: 8px;
   font-weight: normal;
 }
 .type-411 .register-tos-confirm button {
@@ -179,6 +143,43 @@
 }
 .type-411 input:focus {
   outline: none;
+}
+.type-411 .checkbox {
+  display: inline-block;
+}
+.type-411 .checkbox label {
+  position: relative;
+  border: 1px solid;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 1px;
+  background: 0 0;
+  cursor: auto;
+}
+.type-411 .checkbox input {
+  -webkit-appearance: none;
+}
+.type-411 .checkbox.grey label {
+  border-color: #7E7F8D;
+}
+.type-411 .checkbox.grey input:checked+.box:after {
+  background: #2E82C1;
+}
+.type-411 .checkbox label.box:after {
+  transition: background-color .2s ease;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  border-radius: 1px;
+  top: 1px;
+  left: 1px;
+  width: 10px;
+  height: 10px;
+}
+.type-411 .checkbox input[type="checkbox"] {
+  float: left;
+  margin: 0px;
 }
 .type-411 .submit-button {
   width: 100%;

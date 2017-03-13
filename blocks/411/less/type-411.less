@@ -132,44 +132,8 @@
     }
     .register-tos-confirm {
         padding: 4px 0 24px;
-        .checkbox {
-            vertical-align: -1px;
-            display: inline-block;
-            cursor: pointer;
-            position: relative;
-            input {
-                display: none;
-                -webkit-appearance: none;
-            }
-            label {
-                margin-left: 0;
-                border: 1px solid;
-                width: 14px;
-                height: 14px;
-                display: inline-block;
-                border-radius: 1px;
-                background: 0 0;
-                left: 1px;
-                top: 1px;
-            }
-        }
-        .checkbox label.box:after {
-            content: "";
-            transition: background-color .2s ease;
-            display: inline-block;
-            position: absolute;
-            left: 1px;
-            top: 1px;
-            border-radius: 1px;
-            width: 10px;
-            height: 10px;
-        }
-        .checkbox.grey label {
-            border-color: #7E7F8D;
-        }
         label {
             font-size: 1.3rem;
-            margin-left: 8px;
             font-weight: normal;
         }
         button {
@@ -188,6 +152,43 @@
     }
     input:focus{
         outline: none;
+    }
+    .checkbox {
+        display: inline-block;
+        label {
+            position: relative;
+            border: 1px solid;
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            border-radius: 1px;
+            background: 0 0;
+            cursor: auto;
+        }
+        input {
+            -webkit-appearance: none;
+        }
+    }
+    .checkbox.grey label {
+        border-color: #7E7F8D;
+    }
+    .checkbox.grey input:checked+.box:after {
+        background: #2E82C1;
+    }
+    .checkbox label.box:after {
+        transition: background-color .2s ease;
+        display: inline-block;
+        content: "";
+        position: absolute;
+        border-radius: 1px;
+        top: 1px;
+        left: 1px;
+        width: 10px;
+        height: 10px;
+    }
+    .checkbox input[type="checkbox"]{
+        float: left;
+        margin: 0px;
     }
 
     /*--------BUTTON CREATE ACCOUNT--------*/

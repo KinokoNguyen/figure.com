@@ -114,49 +114,11 @@
         a:hover, label:hover {
             color: #e6e6e6;
         }
-        .checkbox {
-            vertical-align: -1px;
-            margin-right: 10px;
-            display: inline-block;
-            cursor: pointer;
-            margin-left: -20px;
-            margin-top: -5px;
-            input {
-                display: none;
-                -webkit-appearance: none;
-            }
-        }
-        .checkbox label {
-            border: 1px solid;
-            width: 14px;
-            height: 14px;
-            display: inline-block;
-            border-radius: 1px;
-            background: 0 0;
-            left: 1px;
-            top: 1px;
-        }
-        .checkbox.white label {
-            border-color: @color_font;
-        }
-        .checkbox label.box:after {
-            transition: background-color .2s ease;
-            display: inline-block;
-            position: absolute;
-            left: 1px;
-            top: 1px;
-            border-radius: 1px;
-            width: 10px;
-            height: 10px;
-        }
-        .checkbox.white input:checked+.box:after {
-            background: @color_font;
-        }
         label {
             color: @color_font;
+            transition: .15s ease-out;
             font-size: 1.3rem;
             cursor: pointer;
-            display: inline-block;
         }
     }
     input:focus{
@@ -166,6 +128,50 @@
         float: right;
     }
 
+    /*-----CHECKBOX-----*/
+    .checkbox {
+        vertical-align: -1px;
+        margin-right: 10px;
+        display: inline-block;
+        cursor: pointer;
+        padding: 0;
+        margin-left: 0;
+        margin-top: 0;
+        label{
+            position: relative;
+        }
+        input {
+            display: none;
+            -webkit-appearance: none;
+        }
+    }
+    .checkbox.white label {
+        border-color: @color_font;
+    }
+    .checkbox label {
+        border: 1px solid;
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        border-radius: 1px;
+        background: 0 0;
+        left: 1px;
+        top: 1px;
+    }
+    .checkbox.white input:checked+.box:after {
+        background: @color_font;
+    }
+    .checkbox label.box:after {
+        content: "";
+        transition: background-color .2s ease;
+        display: inline-block;
+        position: absolute;
+        left: 1px;
+        top: 1px;
+        border-radius: 1px;
+        width: 10px;
+        height: 10px;
+    }
 
     /*----Reponsive----*/
     @media (min-width: 992px){

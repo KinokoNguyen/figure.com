@@ -97,8 +97,8 @@
                             <div class="register-tos-confirm">
                                 <div class="input-validation">
                                     <div class="checkbox grey">
-                                        <input type="checkbox" id="accept-tos">
-                                        <label class="box"></label>
+                                        <input type="checkbox" value="1" id="accept-tos">
+                                        <label for="accept-tos" class="box"></label>
                                     </div>
                                     <label class="noselect">I have read and agree to the <button>Terms of Service</button></label>
                                 </div>

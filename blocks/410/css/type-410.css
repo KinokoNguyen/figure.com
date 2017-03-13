@@ -105,19 +105,38 @@
 .type-410 .extra-login-options label:hover {
   color: #e6e6e6;
 }
-.type-410 .extra-login-options .checkbox {
+.type-410 .extra-login-options label {
+  color: #fff;
+  transition: .15s ease-out;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.type-410 input:focus {
+  outline: none;
+}
+.type-410 .pull-right {
+  float: right;
+}
+.type-410 .checkbox {
   vertical-align: -1px;
   margin-right: 10px;
   display: inline-block;
   cursor: pointer;
-  margin-left: -20px;
-  margin-top: -5px;
+  padding: 0;
+  margin-left: 0;
+  margin-top: 0;
 }
-.type-410 .extra-login-options .checkbox input {
+.type-410 .checkbox label {
+  position: relative;
+}
+.type-410 .checkbox input {
   display: none;
   -webkit-appearance: none;
 }
-.type-410 .extra-login-options .checkbox label {
+.type-410 .checkbox.white label {
+  border-color: #fff;
+}
+.type-410 .checkbox label {
   border: 1px solid;
   width: 14px;
   height: 14px;
@@ -127,10 +146,11 @@
   left: 1px;
   top: 1px;
 }
-.type-410 .extra-login-options .checkbox.white label {
-  border-color: #fff;
+.type-410 .checkbox.white input:checked+.box:after {
+  background: #fff;
 }
-.type-410 .extra-login-options .checkbox label.box:after {
+.type-410 .checkbox label.box:after {
+  content: "";
   transition: background-color .2s ease;
   display: inline-block;
   position: absolute;
@@ -139,21 +159,6 @@
   border-radius: 1px;
   width: 10px;
   height: 10px;
-}
-.type-410 .extra-login-options .checkbox.white input:checked+.box:after {
-  background: #fff;
-}
-.type-410 .extra-login-options label {
-  color: #fff;
-  font-size: 1.3rem;
-  cursor: pointer;
-  display: inline-block;
-}
-.type-410 input:focus {
-  outline: none;
-}
-.type-410 .pull-right {
-  float: right;
 }
 @media (max-width: 768px) {
   .type-410 .logo {
