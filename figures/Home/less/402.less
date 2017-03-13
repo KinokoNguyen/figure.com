@@ -1,7 +1,7 @@
 .type-402{
     @color_icon: #D0021B;
     a{text-decoration:none;color:#505050}
-
+    padding-top: 20px;
     body{background:white}
     ul{
         list-style: none;
@@ -14,7 +14,8 @@
 
     }
     li:before{
-        color: @color_icon;
+    color: @color_icon;
+
         margin-right: 19px;
         font-family: 'FontAwesome';
         font-size: 17px;
@@ -24,14 +25,17 @@
         color: #000;
     }
     .tit1{
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 700;
-        font-style: italic;
         color: #403932;
         font-family: PT Serif;
     }
     .email:before{
         content: "\f0e0";
+    }
+    .email:hover {
+        color: #D0021B;
+        cursor: pointer;
     }
     .address:before{
         content: "\f015";

@@ -20,15 +20,17 @@
                 <div class="row">
                     <div class="col-md-6">
                         <?php
+
+
                             include './type-402.php';
                             include './type-403.php';
+
                         ?>
                     </div>
                     <div class="col-md-6">
                         <img src="images/phones-en.png">
                     </div>
-                   
-                   
+
                 </div>
 
             </div>

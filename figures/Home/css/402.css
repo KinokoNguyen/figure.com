@@ -1,3 +1,6 @@
+.type-402 {
+  padding-top: 20px;
+}
 .type-402 a {
   text-decoration: none;
   color: #505050;
@@ -24,14 +27,17 @@
   color: #000;
 }
 .type-402 .tit1 {
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 700;
-  font-style: italic;
   color: #403932;
   font-family: PT Serif;
 }
 .type-402 .email:before {
   content: "\f0e0";
+}
+.type-402 .email:hover {
+  color: #D0021B;
+  cursor: pointer;
 }
 .type-402 .address:before {
   content: "\f015";
