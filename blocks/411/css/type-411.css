@@ -146,6 +146,9 @@
 }
 .type-411 .checkbox {
   display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
 }
 .type-411 .checkbox label {
   position: relative;
