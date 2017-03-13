@@ -3,6 +3,7 @@
   color: #505050;
 }
 .type-403 ul {
+  font-family: 'Tahoma', 'Arial', 'sans-serif';
   list-style: none;
   padding: 0;
   margin: 0;
@@ -11,6 +12,7 @@
   padding: 0;
   margin: 0;
   display: inline-block;
+  font-family: 'FontAwesome';
 }
 .type-403 body {
   background: white;
@@ -26,6 +28,13 @@
 }
 .type-403 .app {
   text-align: center;
+}
+.type-403 .tit1 {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+  color: #403932;
+  font-family: PT Serif;
 }
 @media only screen and (min-width: 768px) {
   .type-403 .store-badge {

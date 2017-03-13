@@ -3,8 +3,6 @@
   height: auto;
   display: block;
 }
-@media (min-width: 768px) {
-  .type-404 .show-img {
-    width: 960px;
-  }
+.type-404 .show-img {
+  padding: 15px 0 0 0;
 }

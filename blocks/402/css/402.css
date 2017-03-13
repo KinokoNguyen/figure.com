@@ -15,7 +15,7 @@
   display: block;
 }
 .type-402 li:before {
-  color: #d2cab9;
+  color: #D0021B;
   margin-right: 19px;
   font-family: 'FontAwesome';
   font-size: 17px;
@@ -32,6 +32,10 @@
 }
 .type-402 .email:before {
   content: "\f0e0";
+}
+.type-402 .email:hover {
+  color: #D0021B;
+  cursor: pointer;
 }
 .type-402 .address:before {
   content: "\f015";

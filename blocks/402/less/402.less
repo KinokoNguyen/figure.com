@@ -1,5 +1,5 @@
 .type-402{
-    
+    @color_icon: #D0021B;
     a{text-decoration:none;color:#505050}
 
     body{background:white}
@@ -14,7 +14,7 @@
 
     }
     li:before{
-        color: #d2cab9;
+        color: @color_icon;
         margin-right: 19px;
         font-family: 'FontAwesome';
         font-size: 17px;
@@ -32,6 +32,11 @@
     }
     .email:before{
         content: "\f0e0";
+        
+    }
+    .email:hover{
+        color: @color_icon;
+        cursor: pointer;
     }
     .address:before{
         content: "\f015";
