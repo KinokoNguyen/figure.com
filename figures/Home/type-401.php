@@ -32,7 +32,7 @@
           </div>
           <div class="navbar-collapse ">
               <ul class="nav navbar-nav navbar-right collapse collapse-top-menu">
-                    <li class="item active"><a href="#">Medical case</a></li>
+                  <li class="item active"><a href="#">Medical case</a></li>
                     <li class="item"><a href="#">View</a></li>
                     <li class="item"><a href="#">Mobile</a></li>
                     <li class="item"><a href="#">Asus</a></li>

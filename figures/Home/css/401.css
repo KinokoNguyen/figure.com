@@ -62,6 +62,9 @@
   .type-401 .navbar-nav {
     display: block;
   }
+  .type-401 ul {
+    height: 50px !important;
+  }
 }
 @media (max-width: 767px) {
   .type-401 .left-bg {
