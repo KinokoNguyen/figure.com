@@ -35,7 +35,7 @@
 .type-402 .email:before {
   content: "\f0e0";
 }
-.type-402 .email:hover {
+.type-402 .email i:hover {
   color: #D0021B;
   cursor: pointer;
 }
