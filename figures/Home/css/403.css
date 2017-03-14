@@ -55,18 +55,22 @@
   margin: 0;
   display: inline-block;
 }
-.type-403 .app-info .login-link,
+.type-403 .app-info .login-link {
+  background: #DFDFDF;
+  color: #000;
+}
 .type-403 .app-info .register-link {
   background: #D0021B;
   color: #fff;
-}
-.type-403 .app-info .register-link {
   margin-right: 14px;
 }
-.type-403 .app-info .login-link:hover,
-.type-403 .app-info .register-link:hover {
-  background-color: #DFDFDF;
+.type-403 .app-info .login-link:hover {
+  background-color: #eaeaea;
   color: #000;
+}
+.type-403 .app-info .register-link:hover {
+  background-color: #d04141;
+  color: #fff;
 }
 .type-403 .app-info .text-info li:before {
   content: "";

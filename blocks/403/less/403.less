@@ -3,8 +3,10 @@
     background-color: @color_write;
     @color_black: #000;
     @color_write: #fff;
-    @color_bg_btn: #D0021B;
-    @color_hover:  #DFDFDF;
+    @color_bg_btn_login: #DFDFDF;
+    @color_bg_btn_register: #D0021B ;
+    @color_hover_signup: #d04141;
+    @color_hover_login: #eaeaea;
     
     .app-info{
         display: inline-block;
@@ -61,16 +63,22 @@
             padding: 0;
             margin: 0;
             display: inline-block;}
-        .login-link, .register-link  {
-            background: @color_bg_btn;
-            color: @color_write;
+        .login-link {
+            background: @color_bg_btn_login;
+            color: @color_black;
         }
         .register-link {
+            background: @color_bg_btn_register;
+            color: @color_write;
             margin-right: 14px;
         }
-        .login-link:hover, .register-link:hover{
-            background-color: @color_hover;
+        .login-link:hover{
+            background-color: @color_hover_login;
             color: @color_black;
+        }
+        .register-link:hover{
+            background-color: @color_hover_signup;
+            color: @color_write;
         }
         .text-info li:before {
             content: "";
