@@ -15,6 +15,9 @@
 .type-405 .app .store-badge.bottom {
   display: none;
 }
+.type-405 .app a:hover img {
+  opacity: 0.7;
+}
 .type-405 footer {
   text-align: center;
   margin: 18px 0 30px;
