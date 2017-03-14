@@ -48,7 +48,6 @@
   width: 440px;
   display: block;
   margin: 0 auto;
-  padding-top: 40px;
 }
 .type-411 .account-container h1 {
   text-align: center;
@@ -120,9 +119,6 @@
   top: 15px;
   width: 12px;
   height: 12px;
-}
-.type-411 .register-tos-confirm {
-  padding: 4px 0 24px;
 }
 .type-411 .register-tos-confirm label {
   font-size: 1.3rem;
