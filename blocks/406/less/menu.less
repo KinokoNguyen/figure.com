@@ -1,16 +1,19 @@
 .type-menu{
+    @color_hover_red: #D0021B;
+    font-family: PT Serif;
+    
     .demo-long {
         marin-top: 500px;
         margin-bottom: 500px;
     }
     .header-logo{
         padding: 13px 14px;
-        
+
         position: absolute;
-        
+
         margin-left: -42px;
         top: 0px;
-        
+
         img {
             vertical-align: -13px;
             display: inline-block;
@@ -40,9 +43,9 @@
                 border-radius: 50%;
             }
         }
-        
+
         .avatar {
-            
+
             display: inline-block;
             margin-right: 12px;
         }
@@ -54,7 +57,7 @@
             .user-info{
                 padding-left: 36px;
                 height: 110px;
-                
+
             }
             img{
                 width: 60px;
@@ -100,7 +103,9 @@
     .dropdown-menu{
         padding: 0;
         margin-right: 7px;
-        
+    }
+    .navbar-nav>li>a:hover {
+        color: @color_hover_red;
     }
     @media (min-width: 692px){
         .header-logo{
@@ -118,8 +123,6 @@
             left: 10%;
             height: 0;
         }
-        
-        
     }
     @media (max-width: 769px){
         .navbar-right>li{
@@ -130,7 +133,6 @@
         }
         .open, .profile-user{
             width: 100%;
-            
         }
     }
 }

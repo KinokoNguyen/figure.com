@@ -1,3 +1,6 @@
+.type-menu {
+  font-family: PT Serif;
+}
 .type-menu .demo-long {
   marin-top: 500px;
   margin-bottom: 500px;
@@ -89,6 +92,9 @@
 .type-menu .dropdown-menu {
   padding: 0;
   margin-right: 7px;
+}
+.type-menu .navbar-nav>li>a:hover {
+  color: #D0021B;
 }
 @media (min-width: 692px) {
   .type-menu .header-logo {
