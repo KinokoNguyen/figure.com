@@ -1,25 +1,34 @@
 .type-401 {
+  font-family: PT Serif;
   border: none;
   height: auto;
 }
-.type-401 img {
+.type-401 .top-menu {
+  padding-top: 20px !important;
+}
+.type-401 .top-menu img {
   display: block;
 }
-.type-401 .logo {
+.type-401 .top-menu .logo {
   width: auto;
   position: absolute;
   float: left;
 }
-.type-401 .clear {
+.type-401 .top-menu .clear {
   clear: both;
 }
-.type-401 .navbar-collapse {
+.type-401 .top-menu .navbar-collapse {
   padding: 0;
 }
-.type-401 a:hover {
-  background: none !important;
+.type-401 .top-menu a {
+  color: #000;
+  font-size: 1.1em;
 }
-.type-401 .btn-menu {
+.type-401 .top-menu a:hover {
+  background: none !important;
+  color: #D0021B;
+}
+.type-401 .top-menu .btn-menu {
   font-size: 25px;
   padding: 3px 10px;
   border: 1px solid #000;
@@ -27,34 +36,19 @@
   border-radius: 4px;
   float: right;
 }
-.type-401 .btn-menu:hover {
+.type-401 .top-menu .btn-menu:hover {
   background: #000;
   color: #fff;
 }
-.type-401 .top-menu {
-  padding-top: 20px !important;
-}
-@media (min-width: 1200px) {
-  .type-401 li>a {
-    font-size: 1.1em;
-  }
-}
-@media (max-width: 1199px) {
-  .type-401 li>a {
-    font-size: 0.9em;
-  }
+.type-401 .top-menu .menu {
+  font-style: italic;
 }
 @media (min-width: 768px) {
   .type-401 .top-menu {
     padding: 0;
   }
   .type-401 li>a {
-    color: #000;
-    font-family: 'Open Sans Condensed', sans-serif;
     padding: 25px 20px;
-  }
-  .type-401 a:hover {
-    color: #da151f;
   }
   .type-401 .btn-menu {
     display: none;
@@ -68,7 +62,7 @@
     display: none;
   }
   .type-401 li>a {
-    padding: 10px 50px;
+    padding: 10px 30px;
     color: #000;
   }
 }

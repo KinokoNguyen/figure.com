@@ -1,62 +1,58 @@
 .type-401{ 
-    @color_bg: #000;    
+     font-family: PT Serif;
+    @color_icon: #D0021B;
+    @color_bg: #000;   
+    @color_write: #fff;
     border: none;
     height: auto;
-    img {
-        display: block;
-    }
-    .logo{
-        width: auto;
-        position: absolute;
-        float: left;
-    }
-    .clear{
-        clear: both;
-    }
-    .navbar-collapse{
-        padding: 0;
-    }
-    
-    a:hover{
-        background: none !important;
-    }
-    .btn-menu{
-        font-size: 25px;
-        padding: 3px 10px;
-        border: 1px solid #000;
-        margin: 10px 0;
-        border-radius: 4px;       
-        float: right;
-    }
-    .btn-menu:hover{
-        background: #000;
-        color: #fff;
-    }
+
     .top-menu{
         padding-top: 20px !important;
-    }
-    /*-------REPONSIVE----------*/
-    @media (min-width: 1200px){
-        li>a {
+        img {
+            display: block;
+        }
+        .logo{
+            width: auto;
+            position: absolute;
+            float: left;
+        }
+        .clear{
+            clear: both;
+        }
+        
+        a {
+            color: @color_bg;
             font-size: 1.1em;
         }
-    }
-    @media (max-width: 1199px){
-        li>a {
-            font-size: 0.9em;
+        a:hover{
+            background: none !important;
+            color: @color_icon;
+        }
+        .btn-menu{
+            font-size: 25px;
+            padding: 3px 10px;
+            border: 1px solid #000;
+            margin: 10px 0;
+            border-radius: 4px;       
+            float: right;
+        }
+        .btn-menu:hover{
+            background: #000;
+            color: #fff;
+        }
+        .menu{
+            font-style: italic;
+            
         }
     }
+    /*-------REPONSIVE----------*/
     @media (min-width: 768px){
         .top-menu{
-            padding: 0;       
+            padding: 0;      
+            height: 70px;
         }
         li>a {
-            color: @color_bg;
-            font-family: 'Open Sans Condensed', sans-serif;          
             padding: 25px 20px;            
-        }
-        a:hover{
-            color:#da151f;
         }
         .btn-menu{
             display: none;
@@ -64,21 +60,18 @@
         .navbar-nav{
             display: block;
         }
-        ul{
-            height: 50px !important;
+        .navbar-collapse{
+            padding: 0;
         }
+        
     }
     @media (max-width: 767px){
         .left-bg{
             display: none;
         }
-       
         li>a{
-            padding: 10px 50px;
+            padding: 10px 30px;
             color: @color_bg;
-        }
-        .navbar-right{
-            padding: 0 15px;
         }
     }
 }

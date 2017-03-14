@@ -13,7 +13,6 @@
         $less->compileFile('less/403.less', 'css/403.css');
         ?>
         <link href="css/403.css" rel="stylesheet" type="text/css"/>
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
 
     </head>
 
@@ -21,7 +20,7 @@
         <div class="type-403">
             <div class="container content">
                 <div class="app-info">
-                    <div class="tit1"> Hoạt động bên lĩnh vực </div>
+                    <div class="title"> Hoạt động bên lĩnh vực </div>
                     <ul class="text-info medium-minus-hide">
                         <li>View rare conditions, innovative treatments, and teaching cases from around the world</li>
                         <li>Page more than 1 million healthcare professionals for instant feedback</li>

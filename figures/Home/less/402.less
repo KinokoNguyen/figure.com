@@ -1,54 +1,42 @@
 .type-402{
+    font-family: PT Serif;
+    background-color: @color_write;
     @color_icon: #D0021B;
-    a{text-decoration:none;color:#505050}
-    padding-top: 20px;  
-    body{background:white}
-    ul{
-        list-style: none;
-        font-family: 'Tahoma', 'Arial', 'sans-serif';
-        color: #8d7a65;
-        padding: 0;
-    }
-    li{
-        display: block;
+    @color_black: #000;
+    @color_write: #fff;
+    padding-top: 20px;
+    .contact{
+
+        a{text-decoration:none;color:#505050}
+        ul{
+            list-style: none;
+            color: @color_black;
+            padding: 0;
+        }
+        li{
+            display: block;
+            padding: 3px 0;
+            font-size: 16px;
+        }
+        li:before{
+            color: @color_icon;
+            margin-right: 19px;
+            font-size: 17px;
+
+        }
+        span{
+            color: #000;
+        }
+        .title{
+            font-size: 35px;
+            font-weight: 600;
+            color: @color_black;
+        }
 
     }
-    li:before{
-    color: @color_icon;
-
-        margin-right: 19px;
-        font-family: 'FontAwesome';
-        font-size: 17px;
-
-    }
-    span{
-        color: #000;
-    }
-    .tit1{
-        font-size: 35px;
-        font-weight: 700;
-        color: #403932;
-        font-family: PT Serif;
-    }
-    .email:before{
-        content: "\f0e0";
-    }
-    .email i:hover {
-        color: #D0021B;
+    .email:hover{
+        color: @color_icon;
         cursor: pointer;
     }
-    .address:before{
-        content: "\f015";
-    }
-    .fax:before{
-        content: "\f02f";
-    }
-    .telephone:before{
-        content: "\f095";
-    }
-    @media (min-width: 768px){
-        .contact{
-            width: 960px;
-        }
-    }
+
 }

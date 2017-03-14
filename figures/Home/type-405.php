@@ -13,7 +13,7 @@
     ?>
 
     <link href="css/405.css" rel="stylesheet" type="text/css"/>
-   
+
 </head>
 
 <body>
@@ -28,17 +28,20 @@
             </a>
         </div>
         <footer>
-		<nav class="footer-links">
-                    <li>
-                            <a href="#">Giới thiệu</a>
-                    </li><li>
-                            <a href="#">Điều khoản dịch vụ</a>
-                    </li><li>
-                            <a href="#">Riêng tư</a>
-                    </li><li>
-                            <a href="#">Bản quyền</a>
-                    </li>
-		</nav>
+            <nav class="footer-links">
+                <li>
+                    <a href="#">Giới thiệu</a>
+                </li>
+                <li>
+                    <a href="#">Điều khoản dịch vụ</a>
+                </li>
+                <li>
+                    <a href="#">Riêng tư</a>
+                </li>
+                <li>
+                    <a href="#">Bản quyền</a>
+                </li>
+            </nav>
         </footer>
     </div>
 </body>

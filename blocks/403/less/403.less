@@ -1,49 +1,112 @@
 .type-403{
-    a {
-        text-decoration: none;
-        color: #505050;
-    }
-    ul {
-        font-family: 'Tahoma', 'Arial', 'sans-serif';
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    li {
-        padding: 0;
-        margin: 0;
+    font-family: PT Serif;
+    background-color: @color_write;
+    @color_black: #000;
+    @color_write: #fff;
+    @color_bg_btn: #D0021B;
+    @color_hover:  #DFDFDF;
+    
+    .app-info{
         display: inline-block;
-        font-family: 'FontAwesome';
-    }
-    body {
-        background: white;
-    }
-    .store-badge {
         vertical-align: middle;
+        text-align: left;
+        a {
+            text-decoration: none;
+            color: #505050;
+        }
+        ul {
+            /*        font-family: 'Tahoma', 'Arial', 'sans-serif';*/
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+            /*        font-family: 'FontAwesome';*/
+        }
+        .store-badge {
+            vertical-align: middle;
+        }
+        .store-badge img {
+            width: 156px;
+        }
+        .store-badge.bottom {
+            display: none;
+        }
+        .app {
+            text-align: center;
+        }
+        .title{
+            font-size: 35px;
+            font-weight: 600;
+
+            color: @color_black;
+            /*        font-family: PT Serif;*/
+        }
+        .main-content {
+            text-align: center;
+            margin-top: -15px;
+        }
+        .text-info li {
+            color: @color_black;
+            font-size: 1.5rem;
+            display: block;
+            margin-top: 14px;
+            position: relative;
+            padding-left: 18px;
+        }
+        li {
+            padding: 0;
+            margin: 0;
+            display: inline-block;}
+        .login-link, .register-link  {
+            background: @color_bg_btn;
+            color: @color_write;
+        }
+        .register-link {
+            margin-right: 14px;
+        }
+        .login-link:hover, .register-link:hover{
+            background-color: @color_hover;
+            color: @color_black;
+        }
+        .text-info li:before {
+            content: "";
+            width: 7px;
+            height: 7px;
+            background: #DA151F;
+            border-radius: 99px;
+            margin-right: 10px;
+            vertical-align: 2px;
+            display: inline-block;
+            position: absolute;
+            top: 8px;
+            left: 0;
+        }
     }
-    .store-badge img {
-        width: 156px;
-    }
-    .store-badge.bottom {
-        display: none;
-    }
-    .app {
+    .web-app-links a{
+        text-decoration:none;
+        display: inline-block;
+        width: 170px;
+        height: 4.4rem;
+        line-height: 4.4rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+        border-radius: 99px;
         text-align: center;
+        margin-bottom: 10px;      
     }
-    .tit1{
-        font-size: 45px;
-        font-weight: 700;
-        font-style: italic;
-        color: #403932;
-        font-family: PT Serif;
+    .app-info .web-app-links {
+        margin-top: 44px;
     }
+    
+    
     @media only screen and (min-width: 768px) {
         .store-badge {
             display: inline-block;
             margin-right: 18px;
-        }
-        .content{
-            width: 960px;
         }
     }
     @media only screen and (min-width: 481px) and (max-width: 779px) {
@@ -73,28 +136,11 @@
             width: 190px;
         }
     }
-    footer {
-        text-align: center;
-        margin: 18px 0 30px;
-    }
     @media only screen and (max-width: 779px) {
         footer {
             margin-top: 30px;
             padding: 0 30px;
         }
-    }
-    .footer-links {
-        font-size: 1.3rem;
-        color: #505050;
-        display: inline-block;
-        width: 100%;
-    }
-    .footer-links a {
-        display: inline-block;
-        transition: color 0.2s ease-out;
-    }
-    .footer-links a:hover {
-        color: #DA151F;
     }
     @media only screen and (max-width: 779px) {
         .footer-links {
@@ -122,88 +168,7 @@
         .footer-links li:not(:last-child) {
             margin-right: 30px;
         }
-    }
-    h1 {
-        font-weight: 400;
-        color: #505050;
-        font-size: 3.8rem;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        text-rendering: optimizelegibility;
-        -webkit-font-smoothing: antialiased;
-        margin: 20px 0;
-    }
-    .app-info {
-        display: inline-block;
-        vertical-align: middle;
-        text-align: left;
-    }
-    .main-content {
-        text-align: center;
-        margin-top: -15px;
-    }
-    .text-info li {
-        color: #52545F;
-        font-size: 1.5rem;
-        display: block;
-        margin-top: 14px;
-        position: relative;
-        padding-left: 18px;
-    }
-
-    li {
-        padding: 0;
-        margin: 0;
-        display: inline-block;
-    }
-    a {
-        text-decoration: none;
-        color: #505050;
-    }
-    a:-webkit-any-link {
-        color: -webkit-link;
-
-        cursor: auto;
-    }
-    .login-link {
-        background: #DFDFDF;
-        color: #52545F;
-    }
-    .register-link {
-        background: #D0021B;
-        color: white;
-        margin-right: 14px;
-    }
-    .text-info li:before {
-        content: "";
-        width: 7px;
-        height: 7px;
-        background: #DA151F;
-        border-radius: 99px;
-        margin-right: 10px;
-        vertical-align: 2px;
-        display: inline-block;
-        position: absolute;
-        top: 8px;
-        left: 0;
-    }
-    .web-app-links a{
-        text-decoration:none;
-        display: inline-block;
-        width: 170px;
-        height: 4.4rem;
-        line-height: 4.4rem;
-        font-weight: 500;
-        font-size: 1.5rem;
-        border-radius: 99px;
-        text-align: center;
-        margin-bottom: 10px;    
-        color: #fff;    
-    }
-    a.login-link{color:#000}
-    .app-info .web-app-links {
-        margin-top: 44px;
-    }
+    }  
 }
 
 

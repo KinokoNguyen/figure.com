@@ -31,8 +31,8 @@
                 <span class="fa fa-navicon btn-menu" data-toggle="collapse" data-target=".collapse-top-menu"></span>
                 <div class="clear"></div>
             </div>
-            <div class="navbar-collapse ">
-                <ul class="nav navbar-nav navbar-right collapse collapse-top-menu">
+            <div class="navbar-collapse">
+                <ul class="menu nav navbar-nav navbar-right collapse collapse-top-menu">
                     <li class="item active"><a href="#">Medical case</a></li>
                     <li class="item"><a href="#">View</a></li>
                     <li class="item"><a href="#">Mobile</a></li>

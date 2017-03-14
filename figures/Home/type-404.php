@@ -13,26 +13,24 @@
         $less->compileFile('less/404.less', 'css/404.css');
         ?>
         <link href="css/404.css" rel="stylesheet" type="text/css"/>
+        
     </head>
     <body>
         <div class="type-404">
             <div class="container show-img">
-                <div class="row">
-                    <div class="col-md-6">
-                        <?php
-
-
+                <div class="col-md-6">
+                    <div class="row">
+                    <?php
                             include './type-402.php';
-                            include './type-403.php';
-
-                        ?>
+                             include './type-403.php';
+                    ?>
                     </div>
-                    <div class="col-md-6">
-                        <img src="images/phones-en.png">
-                    </div>
-
                 </div>
-
+                <div class="col-md-6">
+                     <div class="row">
+                    <img src="images/phones-en.png">
+                     </div>
+                </div>
             </div>
         </div>
     </body>
