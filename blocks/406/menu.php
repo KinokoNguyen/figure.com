@@ -72,7 +72,7 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <!--PLUS-->
-                        <li class="tooltip">
+                        <li>
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="Plus">
                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
                             </a>
