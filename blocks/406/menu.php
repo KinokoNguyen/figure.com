@@ -3,7 +3,6 @@
     <title></title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-
     <?php
     if (!class_exists('lessc')) {
         include ('./libs/lessc.inc.php');
@@ -73,7 +72,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!--PLUS-->
                         <li>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Plus demo hi">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Plusdemo demo demo demo">
                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
                             </a>
                         </li>

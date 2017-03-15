@@ -105,8 +105,16 @@
 .type-menu .navbar-toggle:hover {
   background-color: #e4e4e4;
 }
-.type-menu .tooltip {
-  width: 200%;
+.type-menu .tooltip-inner {
+  max-width: 200px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+.type-menu .nav>li {
+  position: initial;
 }
 @media (min-width: 692px) {
   .type-menu .header-logo {
