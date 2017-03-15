@@ -106,7 +106,7 @@
   background-color: #e4e4e4;
 }
 .type-menu .tooltip {
-  width: auto;
+  width: 200%;
 }
 @media (min-width: 692px) {
   .type-menu .header-logo {
