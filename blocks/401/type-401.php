@@ -22,15 +22,17 @@
             <!--LOGO-->
             <div class="logo">
                 <a href="#">
-                    <img src="images/logo.png" alt="" style="width: 100px; height: 50px;"/>
+                   <img src="images/logo.png" alt="" style="width: 100px; height: 50px;"/>
                 </a>
             </div>
             <!--END LOGO-->
+            
             <!--MAIN MENU-->
             <div class="">
                 <span class="fa fa-navicon btn-menu" data-toggle="collapse" data-target=".collapse-top-menu"></span>
                 <div class="clear"></div>
             </div>
+            
             <div class="navbar-collapse">
                 <ul class="menu nav navbar-nav navbar-right collapse collapse-top-menu">
                     <li class="item active"><a href="#">Medical case</a></li>

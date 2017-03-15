@@ -20,7 +20,6 @@
 <body>
     <div class="type-menu">
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-
             <div class="container-fluid">
 
                 <!---NAVBAR-->
@@ -72,17 +71,19 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!--PLUS-->
                         <li>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Plusdemo demo demo demo demo demo demo demo demo">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Plusdemo demo demo demo demo">
                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
                             </a>
                         </li>
                         <!--END PLUS-->
                         <!--NOTIFICATION-->
                         <li>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Notification">
+                            <a onclick="notice()" href="#" data-toggle="tooltip" data-placement="bottom" title="Notification">
                                 <i class="fa fa-bell" aria-hidden="true"></i>
+                                <span id="notification-counter">1</span>
                             </a>
                         </li>
+
                         <!--/END NOTIFICATION-->
 
                         <!--MESSAGE-->
@@ -129,9 +130,9 @@
                 <button class="header-logo" data-ember-action="" data-ember-action-378="378">
                     <img src="images/logo.svg" class="logo">
                 </button>
+
             </div>
         </div>
-
         <div class="container">
 
             <p class="demo-long">
@@ -154,13 +155,17 @@
             </p>
 
         </div>
+
     </div>
 
-
+    <script>
+        function notice() {
+            document.getElementById("notification-counter").style.display = "none";
+        }
+    </script>
     <script>
         $("div.navbar-fixed-top").autoHidingNavbar();
     </script>
-
     <script>
         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();

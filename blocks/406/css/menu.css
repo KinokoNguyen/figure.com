@@ -116,6 +116,16 @@
 .type-menu .nav>li {
   position: initial;
 }
+.type-menu #notification-counter {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  background-color: #d4130d;
+  color: #fff;
+  border-radius: 3px;
+  padding: 1px 3px;
+  font: 9px Verdana;
+}
 @media (min-width: 692px) {
   .type-menu .header-logo {
     left: 50%;
