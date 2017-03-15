@@ -73,7 +73,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!--PLUS-->
                         <li>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Plus">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Plus demo">
                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
                             </a>
                         </li>
@@ -96,7 +96,7 @@
 
                         <!--USER PROFILE-->
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle user-img" data-toggle="dropdown tooltip" data-placement="bottom" title="Information">
+                            <a href="#" class="dropdown-toggle user-img" data-toggle="dropdown" data-placement="bottom" title="Information">
                                 <img src="images/avatar.jpg" alt=""/>
                             </a>
                             <ul class="dropdown-menu">

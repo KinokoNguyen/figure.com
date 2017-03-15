@@ -1,6 +1,7 @@
 .type-402 {
   font-family: PT Serif;
   background-color: #fff;
+  padding-top: 20px;
 }
 .type-402 .contact a {
   text-decoration: none;
@@ -14,22 +15,41 @@
 .type-402 .contact li {
   display: block;
   padding: 3px 0;
-  font-size: 16px;
 }
 .type-402 .contact li:before {
   color: #D0021B;
   margin-right: 19px;
-  font-size: 17px;
 }
 .type-402 .contact span {
   color: #000;
 }
 .type-402 .contact .title {
-  font-size: 35px;
   font-weight: 600;
   color: #000;
 }
 .type-402 .email:hover {
   color: #D0021B;
   cursor: pointer;
+}
+@media (min-width: 768px) {
+  .type-402 .title {
+    font-size: 35px;
+  }
+  .type-402 li {
+    font-size: 16px;
+  }
+  .type-402 li:before {
+    font-size: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .type-402 .title {
+    font-size: 25px;
+  }
+  .type-402 li {
+    font-size: 14px;
+  }
+  .type-402 li:before {
+    font-size: 15px;
+  }
 }

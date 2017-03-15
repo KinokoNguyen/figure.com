@@ -16,19 +16,16 @@
         li{
             display: block;
             padding: 3px 0;
-            font-size: 16px;
         }
         li:before{
             color: @color_icon;
             margin-right: 19px;
-            font-size: 17px;
-
+            
         }
         span{
             color: #000;
         }
         .title{
-            font-size: 35px;
             font-weight: 600;
             color: @color_black;
         }
@@ -38,5 +35,27 @@
         color: @color_icon;
         cursor: pointer;
     }
-
+    
+    @media (min-width: 768px){
+        .title{
+            font-size: 35px;
+        }
+        li{
+            font-size: 16px;
+        }
+        li:before{
+            font-size: 17px;
+        }
+    }
+    @media (max-width: 767px){
+        .title{
+            font-size: 25px;
+        }
+        li{
+            font-size: 14px;
+        }
+        li:before{
+            font-size: 15px;
+        }
+    }
 }

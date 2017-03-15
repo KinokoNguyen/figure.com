@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-md-6">
                      <div class="row">
-                    <img src="images/phones-en.png">
+                         <img src="images/phones-en.png">
                      </div>
                 </div>
             </div>

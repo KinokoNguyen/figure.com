@@ -75,6 +75,9 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .type-405 {
+    padding-top: 50px;
+  }
   .type-405 .footer-links li {
     width: 100%;
   }
@@ -94,6 +97,10 @@
   .type-405 .store-badge img {
     width: 190px;
     margin: 10px;
+  }
+  .type-405 .store-badge img {
+    width: 130px !important;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 780px) {

@@ -41,11 +41,8 @@
             text-align: center;
         }
         .title{
-            font-size: 35px;
             font-weight: 600;
-
             color: @color_black;
-            /*        font-family: PT Serif;*/
         }
         .main-content {
             text-align: center;
@@ -53,17 +50,16 @@
         }
         .text-info li {
             color: @color_black;
-            font-size: 16px;
             display: block;
-            margin-top: 14px;
             position: relative;
             padding-left: 18px;
+            
         }
         li {
             padding: 0;
             margin: 0;
             display: inline-block;}
-        .login-link {
+        .login-link, {
             background: @color_bg_btn_login;
             color: @color_black;
         }
@@ -116,6 +112,13 @@
             display: inline-block;
             margin-right: 18px;
         }
+        .title{
+            font-size: 35px;
+        }
+        .text-info li{
+            font-size: 16px;
+            margin-top: 14px;
+        }
     }
     @media only screen and (min-width: 481px) and (max-width: 779px) {
         .store-badge {
@@ -144,10 +147,21 @@
             width: 190px;
         }
     }
-    @media only screen and (max-width: 779px) {
-        footer {
-            margin-top: 30px;
-            padding: 0 30px;
+    @media only screen and (max-width: 767px) {
+        .title{
+            font-size: 25px;
+        }
+        .text-info li{
+            font-size: 14px;
+            margin-top: 8px;
+        }
+        .web-app-links{ 
+            a{
+                width: 130px !important;
+            }
+        }
+        .register-link{
+            margin-right: 0 !important;
         }
     }
     @media only screen and (max-width: 779px) {
@@ -163,11 +177,19 @@
         .footer-links li {
             width: 50%;
         }
+        footer {
+            margin-top: 30px;
+            padding: 0 30px;
+        }
     }
     @media only screen and (max-width: 480px) {
         .footer-links li {
             width: 100%;
         }
+        .web-app-links{
+            text-align: center;
+        }
+        
     }
     @media only screen and (min-width: 780px) {
         .footer-links a {
