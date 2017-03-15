@@ -145,3 +145,8 @@
     width: 100%;
   }
 }
+@media (max-width: 692px) {
+  .type-menu .tooltip-arrow {
+    top: 1px !important;
+  }
+}
