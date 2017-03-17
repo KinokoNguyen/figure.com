@@ -24,7 +24,6 @@
 .type-410 .top-links a {
   display: inline-block;
   padding: 9px 44px;
-  margin-left: 22px;
   border-radius: 2px;
   border: 1px solid #fff;
   font-size: 1.5rem;
@@ -37,7 +36,7 @@
 }
 .type-410 .logo {
   display: block;
-  margin-top: 100px;
+  margin-top: 200px;
   text-align: center;
 }
 .type-410 .logo img {
@@ -160,6 +159,14 @@
   width: 10px;
   height: 10px;
 }
+@media (min-width: 768px) {
+  .type-410 .top-links a {
+    margin-left: 22px;
+  }
+  .type-410 .logo {
+    margin-top: 100px;
+  }
+}
 @media (max-width: 768px) {
   .type-410 .logo {
     width: 100%;
@@ -174,5 +181,11 @@
   }
   .type-410 .account-container {
     width: 100%;
+  }
+  .type-410 .extra-login-options label {
+    font-size: 1.2rem;
+  }
+  .type-410 .extra-login-options a {
+    font-size: 1.2rem;
   }
 }

@@ -28,7 +28,6 @@
         a {
             display: inline-block;
             padding: 9px 44px;
-            margin-left: 22px;
             border-radius: 2px;
             border: 1px solid @color_font;
             font-size: 1.5rem;
@@ -44,7 +43,7 @@
     /*---------LOGO---------*/
     .logo {
         display: block;
-        margin-top: 100px;
+        margin-top: 200px;
         text-align: center;
         img {
             width: 150px;
@@ -174,8 +173,13 @@
     }
 
     /*----Reponsive----*/
-    @media (min-width: 992px){
-
+    @media (min-width: 768px){
+        .top-links a {
+            margin-left: 22px;
+        }
+        .logo {
+            margin-top: 100px;
+        }
     }
     @media (max-width: 768px){
         .logo {
@@ -191,6 +195,12 @@
         }
         .account-container {
             width: 100%;
+        }
+        .extra-login-options label {
+            font-size: 1.2rem;
+        }
+        .extra-login-options a {
+            font-size: 1.2rem;
         }
     }
 

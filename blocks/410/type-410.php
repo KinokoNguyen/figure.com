@@ -13,7 +13,7 @@
     $less->compileFile('less/type-410.less', 'css/type-410.css');
     ?>
     <link href="css/type-410.css" rel="stylesheet" type="text/css"/>
-
+    <link href="css/bootstrap-social.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
@@ -28,8 +28,30 @@
                 <div class="top-links">
                     <span>Don't have an account yet?</span>
                     <a href="#" class="ember-view">Sign Up</a>
+
+                    <!--GOOGLE-->
+                    <div class="btn-top-links">
+                        <div class="btn-top-links">
+                            <a class="btn btn-block btn-social btn-google" href="#">
+                                <i class="fa fa-google-plus"></i>
+                                Google
+                            </a>
+                        </div>
+                        <!--/END GOOGLE-->
+
+                        <!--FACEBOOK-->
+                        <div class="btn-top-links">
+                            <a class="btn btn-block btn-social btn-facebook" href="#">
+                                <i class="fa fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </div>
+                        <!--/END FACEBOOK-->
+                    </div>
                 </div>
                 <!--/END TOP LINKS-->
+
+
 
                 <!--LOGIN-->
                 <div class="landing-page">
