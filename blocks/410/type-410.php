@@ -71,11 +71,11 @@
                                 <hr>
                                 <input type="password" name="password" placeholder="Password" class="simple-input">
                             </form>
-                        </main>
 
-                        <button type="submit" form="login-form" class="submit-button black">
-                            Sign In
-                        </button>
+                            <button type="submit" form="login-form" class="submit-button black">
+                                Sign In
+                            </button>
+                        </main>
 
                         <div class="extra-login-options">
                             <div class="checkbox white">

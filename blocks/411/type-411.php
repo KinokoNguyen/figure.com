@@ -104,13 +104,14 @@
                                     </div>
                                 </div>
                                 <!--/END CONFIRM REGISTER-->
+
+                                <!--BUTTON SUBMIT-->
+                                <button class="submit-button blue">
+                                    Create Account
+                                </button>
+                                <!--/END BUTTON SUBMIT-->
                             </form>
                         </main>
-
-                        <button class="submit-button blue">
-                            Create Account
-                        </button>
-
                     </div>
                     <!--/END FORM REGISTER-->
 
