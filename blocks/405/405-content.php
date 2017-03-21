@@ -1,30 +1,23 @@
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
 
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/405.less', 'css/405.css');
-    ?>
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-    <link href="css/405.css" rel="stylesheet" type="text/css"/>
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-</head>
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-<body>
+$url_path = $url_host . $matches[1][0];
+?>
 
-    <div class="type-405">
+<div class="type-405">
+    <div class="container">
         <div class="app">
             <a class="store-badge top" href="#" id="apple-store">
-                <img src="images/apple-app-store-en.svg" data-ga-action="AppStoreClick" id="apple1">
+                <img src="http://<?php echo $url_path ?>/images/apple-app-store-en.svg" data-ga-action="AppStoreClick" id="apple1">
             </a>
             <a class="store-badge top" href="#" id="android-store">
-                <img src="images/google-app-store-en.svg" data-ga-action="PlayStoreClick" id="android1">
+                <img src="http://<?php echo $url_path ?>/images/google-app-store-en.svg" data-ga-action="PlayStoreClick" id="android1">
             </a>
         </div>
         <footer>
@@ -44,4 +37,5 @@
             </nav>
         </footer>
     </div>
-</body>
+</div>
+

@@ -16,7 +16,6 @@
         <!--LOGO-->
         <div class="logo">
             <a href="#">
-
                 <img src="http://<?php echo $url_path ?>/images/logo.png" alt="" style="width: 100px; height: 50px;"/>
             </a>
         </div>

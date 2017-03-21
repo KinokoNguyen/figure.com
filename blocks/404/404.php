@@ -16,13 +16,10 @@
         
     </head>
     <body>
-        <div class="type-404">
-            <div class="container show-img">
-                <div class="col-md-6">
-
-                </div>
-                <div class="col-md-6">
-                    <img src="images/phones-en.png">
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-6'>
+                    <?php include './404-content.php'; ?>
                 </div>
             </div>
         </div>

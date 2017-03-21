@@ -9,22 +9,13 @@
         include ('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/402.less', 'css/402.css');
+    $less->compileFile('less/405.less', 'css/405.css');
     ?>
 
-    <link href="css/402.css" rel="stylesheet" type="text/css"/>
+    <link href="css/405.css" rel="stylesheet" type="text/css"/>
+
 </head>
 
 <body>
-
-    <div class='container'>
-            <div class='row'>
-                <div class='col-md-3'>
-
-                    <?php include './402-content.php' ?>
-                </div>
-            </div>
-        </div>
-
-
+    <?php include './405-content.php ';?>
 </body>
