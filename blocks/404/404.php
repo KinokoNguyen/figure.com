@@ -13,7 +13,7 @@
         $less->compileFile('less/404.less', 'css/404.css');
         ?>
         <link href="css/404.css" rel="stylesheet" type="text/css"/>
-        
+
     </head>
     <body>
         <div class='container'>
