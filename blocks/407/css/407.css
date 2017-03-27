@@ -9,7 +9,7 @@
   margin: 0 20px;
 }
 .type-407 .page-not-found .title {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 .type-407 .page-not-found .title h2,
 .type-407 .page-not-found .title h1,
@@ -88,7 +88,7 @@
   padding: 0px;
 }
 .type-407 .page-not-found .search {
-  height: 20%;
+  margin-bottom: 7%;
 }
 .type-407 .page-not-found .search input[type="submit"] {
   height: 42px;
