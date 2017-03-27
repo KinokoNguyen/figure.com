@@ -1,7 +1,6 @@
 .type-401 {
   font-family: PT Serif;
   border: none;
-  height: auto;
 }
 .type-401 .top-menu {
   padding-top: 20px !important;
@@ -44,6 +43,9 @@
   font-style: italic;
 }
 @media (min-width: 768px) {
+  .type-401 {
+    height: 13% !important;
+  }
   .type-401 .top-menu {
     padding: 0;
   }
@@ -58,6 +60,9 @@
   }
 }
 @media (max-width: 767px) {
+  .type-401 {
+    height: auto;
+  }
   .type-401 .left-bg {
     display: none;
   }

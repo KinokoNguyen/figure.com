@@ -10,6 +10,9 @@
         <link href="../404/css/404.css" rel="stylesheet" type="text/css">
         <link href="../405/css/405.css" rel="stylesheet" type="text/css">
         
+        
+        <script src="../401/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="../401/js/bootstrap.min.js" type="text/javascript"></script>
     </head>
 
     <body>
