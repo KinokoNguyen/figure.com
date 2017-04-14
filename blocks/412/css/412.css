@@ -1,15 +1,9 @@
 .type-412 {
   font-family: PT Serif;
-  margin: 30px 0;
+  margin: 30px 0 0 0;
 }
 .type-412 .alert {
   margin-bottom: 0;
-}
-.type-412 .glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
 }
 .type-412 hr.message-inner-separator {
   clear: both;

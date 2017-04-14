@@ -60,7 +60,7 @@
 .type-411 .account-container main {
   background: #fff;
   border-radius: 2px;
-  overflow: hidden;
+  overflow: visible;
 }
 .type-411 .account-container .simple-input {
   border: 0;
@@ -87,7 +87,6 @@
   background: #22272b;
 }
 .type-411 hr {
-  height: 1px;
   color: #DFDFDF;
   margin-bottom: 0;
 }
